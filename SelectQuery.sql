@@ -39,4 +39,3 @@ select * from orders where orderıd=10248
 --order details tablosunun ilk 10 kaydı(tablo isminde boşluk olduğu için köşeli parantez kullanlır)
 select top 10 *from [Order Details]
 
---
