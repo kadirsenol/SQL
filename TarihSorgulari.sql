@@ -20,7 +20,7 @@ select firstname, lastname,birthdate, (year(getdate())-year(birthdate))'yas' fro
 ---DatePart fonksiyonu
 Select Datepart(yearbirthdate) 'Dogum yili'
 
---kac gundur yıldır yasıyorum
+--kac gundur yildır yasıyorum
 select datediff(year, '03.07.1997', getdate()) as 'yıl'
 
 --calisanlarin yaslarını datediff ile bulma
