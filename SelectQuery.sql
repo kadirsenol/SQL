@@ -15,4 +15,4 @@ Select *from Customers where Country='Germany' or country='France'
 Select *from Customers where Country='Germany' or country='France' Order by country
 
 --Almanya ve Fransada ki müşterilerin listesini ülkeye ve sehre göre sırala
-Select *from Customers where Country='Germany' or country='France' Order by country, city
+Select *from Customers where Country='Germany' or country='France' Order by country, city 
