@@ -12,7 +12,6 @@ Group by ShipCountry,YEAR(OrderDate)
 Having count(*) >=20
 order by 1 ,3
 
-
 -- - Toplam tutari 2500 ile 3500 arasinda olan siparişler
 Select OrderID ,sum(UnitPrice*Quantity) Ciro 
 from [Order Details]

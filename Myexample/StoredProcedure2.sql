@@ -42,7 +42,6 @@ Group by c.CategoryName , year(o.OrderDate)
 Order by yil ,Ciro desc
 
 
-
 END
 
 Exec KatgoriBazindaCiroDagilimi 30,2997

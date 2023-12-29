@@ -120,7 +120,6 @@ Order by yil, Adet
 -- Saglamasi icin 1 numarali kargo sirketi 1996 yilinda egerki 38 adet tasimissa dogrudur
 Select count(*) from Orders where year(OrderDate) = 1996 and ShipVia=1
 
-
 ---- Ulkelerin siparislerinin yillara gore dagilimi nedir
 Select year(OrderDate) yil,ShipCountry,count(*) Adet
 from Orders

@@ -43,7 +43,6 @@ select top 10 od.OrderID [Siparis No],p.ProductName Urun ,od.Quantity Adet ,od.U
 from [Order Details] od 
 inner join Products p on p.ProductID=od.ProductID
 
-
 -- yukaridaki sorguda urunun Kategorisinide gormek istiyorum (Categories)
 
 select top 10   od.OrderID [Siparis No],

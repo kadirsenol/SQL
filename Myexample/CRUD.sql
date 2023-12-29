@@ -27,7 +27,6 @@ declare @trh varchar(50)
 SELECT @trh = CONVERT(DateTime, '2017-08-25')
 Select @trh 
 
-
 -- Tablodan Kayit Silme 
 
 -- Delete from TabloIsmi Where ....

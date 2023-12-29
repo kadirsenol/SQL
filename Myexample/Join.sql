@@ -36,7 +36,6 @@ inner join Orders o on o.OrderID = od.OrderID
 inner join Customers c on c.CustomerID = o.CustomerID
 where o.OrderID = 10248
 
-
 -- siparisler tablosundaki personelin ad ve soyadlari ile beraber getirelim
 --Eski Yontem
 Select Employees.FirstName,Employees.LastName,Orders.OrderID,Orders.OrderDate 

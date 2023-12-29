@@ -47,7 +47,6 @@ Select DateDiff(day,'12.19.2000' ,GetDate())
 
 Select FirstName,LastName,DateDiff(year,BirthDate,GETDATE()) 'Yaş' from Employees
 
-
 -- 1996 yilinin Eylul ayindaki satislarin listesi 
 Select * from Orders Where year(OrderDate) =1996 and Month(OrderDate) = 9
 

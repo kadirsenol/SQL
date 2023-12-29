@@ -18,7 +18,6 @@ Select * from Employees where FirstName like 'a_d%'
 -- Italyanca ile ilgili calisanlar
 Select * from Employees where Notes like '%Italian%'
 
-
 -- Adinin ilk harfi A yada L Olanlar
 --1. Yol
 Select * from Employees where FirstName like 'a%' or FirstName like 'l%'

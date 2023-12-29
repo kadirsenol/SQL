@@ -38,7 +38,7 @@ select @cumle = 'Bugun Besiktaş Fenerbahce Derbisi Var     '
  -- Soldaki Bosluklardan kurtulma 
  select LTRIM(@cumle), RTRIM(@cumle),TRIM(@cumle)
 
- 
+
  -- Replace 
  select REPLACE(@cumle,'Besiktaş','bjk')
 
