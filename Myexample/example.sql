@@ -230,5 +230,3 @@ exec abcd 1998
 select * from abc
 where ProductID=56
 
-
-
